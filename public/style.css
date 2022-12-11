@@ -1,0 +1,122 @@
+h1{
+    font-family: Courier, monospace;
+	text-align: center;
+    color: #fff;
+}
+#header{
+    background-color: brown;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+nav{
+    position: relative;
+    text-align: center;
+    padding-top: 10%;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+
+nav li {
+    background-color: brown;
+    list-style: none;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+
+}
+
+nav li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav li:hover {
+    background-color: burlywood;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.card{
+    margin-top: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.btn{
+    margin-top: 10px;
+    background-color: brown;
+    border: none;
+}
+
+.btn:hover{
+    background-color: burlywood;
+}
+
+.form-group{
+    margin-top: 10px;
+}
+
+.err{
+    color:red;
+}
+
+#chats-header{
+    display: flex;
+    background-color: brown;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#header-nav{
+    display: flex;
+    font-weight: bold;
+    text-align: center;
+}
+
+#header-nav a{
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 10px;
+}
+#header-nav a:hover{
+    color: burlywood;
+    
+}
+
+#chats-footer{
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#chats-groups{
+    padding-bottom: 10px;
+    background-color: brown;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 20%;
+}
+
+#chats-messages{
+    border: 2px solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 80%;
+}
